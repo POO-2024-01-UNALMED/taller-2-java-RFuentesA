@@ -8,7 +8,7 @@ public class Asiento {
 
   public void cambiarColor(String color){
 
-    String[] colores = {"blanco","verde","rojo","negro","amarillo"}
+    String[] colores = {"blanco","verde","rojo","negro","amarillo"};
     if (Arrays.asList(colores).contains(color)){
       this.color = color;
     }
